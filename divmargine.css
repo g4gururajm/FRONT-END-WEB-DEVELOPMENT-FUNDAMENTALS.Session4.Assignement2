@@ -1,0 +1,28 @@
+/* importing css3 library */
+@import "compass/css3";
+div.container {				
+    border: 1px solid black;								/* Setting div border with 1px in solid black */
+    margin-top: 25px;										/* margin-top set with 25px for div*/
+    margin-right: 25px;										/* margin-right set with 25px for div*/
+	margin-bottom:	25px;									/* margin-bottom set with 25px for div*/
+	margin-left: 25px;										/* margin-left set with 25px for div*/
+    background-color: darkblue;								/* setting div background-color as darkblue*/
+    width: 25%;												/* setting div width with 25% of html doc*/
+    position: absolute;										/* setting div position as absolute*/
+}
+
+div.one {
+	font: normal 20px/1 "Times New Roman", Times, serif;	/* setting div contant fonts size and style */
+	border: 1px solid black;								/* Setting div border with 1px in solid black */
+    text-align: left;										/* setting div tetx alignment to left*/				
+    padding-top: 25px;										/* div padding top with 25px */
+    padding-right: 25px;								    /* div padding right with 25px */
+    padding-bottom: 25px;									/* div padding bottom with 25px */
+    padding-left: 25px;										/* div padding left with 25px */
+    margin-top: 25px;										/* margin-top set with 25px for div*/
+	margin-right:25px;										/* margin-right set with 25px for div*/
+	margin-bottom:25px;										/* margin-bottom set with 25px for div*/
+	margin-left: 25px;										/* margin-left set with 25px for div*/
+    background-color: lightblue;							/* setting div background-color as darkblue*/				
+	text-overflow: ellipsis;								/* setting div text-overflow to the ellipsis mode */
+}
